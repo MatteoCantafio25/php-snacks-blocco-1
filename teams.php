@@ -3,26 +3,26 @@ $matches = [
     [
     'Home_Team' => 'Olimpia Milano',
     'Guest_Team' => 'Brindisi',
-    'Home_Points' => rand(1,100),
-    'Guests_Points' => rand(1,100),
+    'Home_Points' => rand(70,100),
+    'Guests_Points' => rand(70,100),
     ],
     [
     'Home_Team' => 'Virtus Bologna',
     'Guest_Team' => 'Scafati',
-    'Home_Points' => rand(1,100),
-    'Guests_Points' => rand(1,100),
+    'Home_Points' => rand(70,100),
+    'Guests_Points' => rand(70,100),
     ],
     [
     'Home_Team' => 'Cremona',
     'Guest_Team' => 'Napoli',
-    'Home_Points' => rand(1,100),
-    'Guests_Points' => rand(1,100),
+    'Home_Points' => rand(70,100),
+    'Guests_Points' => rand(70,100),
     ],
     [
     'Home_Team' => 'Trento',
     'Guest_Team' => 'Uniiverso Treviso',
-    'Home_Points' => rand(1,100),
-    'Guests_Points' => rand(1,100),
+    'Home_Points' => rand(70,100),
+    'Guests_Points' => rand(70,100),
     ],
 ];
 

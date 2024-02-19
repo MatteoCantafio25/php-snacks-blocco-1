@@ -42,7 +42,7 @@ $matches = [
     <h1>Partite LBA</h1>
 
     <?php foreach($matches as $match) : ?>
-            <p><?= $match['Home_Team']?> - <?= $match['Guest_Team']?> | <?= $match['Home_Points']?>-<?= $match['Guests_Points']?></p>
+            <p><?= "{$match['Home_Team']} - {$match['Guest_Team']} |  {$match['Home_Points']} - {$match['Guests_Points']}" ?></p>
         <?php endforeach; ?>
     
 </body> 

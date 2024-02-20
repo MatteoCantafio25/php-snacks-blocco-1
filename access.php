@@ -18,7 +18,7 @@ $user_age = $_GET['age'];
 <body>
     <!-- Snack 2 -->
 
-    <?php if(strlen($user_name) > 3 && strpos($user_email, '.') && strpos($user_email, '@') && (is_numeric($user_age))) : ?>
+    <?php if(mb_strlen(trim($user_name)) > 3 && strpos($user_email, '.') && strpos($user_email, '@') && (is_numeric($user_age))) : ?>
         <h2>Accesso Riuscito</h2>
         <?php else: ?>
             <h2>Accesso Negato</h2>
